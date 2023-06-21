@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+
+:root {
+    --primary-color: #1D2F6F;
+    --secondary-color: #90D7FF;
+    --accent1-color: #BFD0E0;
+    --accent2-color: #1D2F6F;
+
+    --heading-font: 'roboto mono';
+    --paragraph-font:'roboto mono'; 
+
+    --nav-background-color:var(--accent1-color);
+    --nav-link-color:var(--accent2-color);
+    --nav-hover-lin-color:var(--accent2-color);
+    --nav-hover-background-color:var(--secondary-color);
+    
+} 
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+} 
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+} 
+
+p {
+    padding: 25px;
+} 
+
+nav { 
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+} 
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+} 
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-lin-color);
+    background-color: var(--nav-hover-background-color);
+}

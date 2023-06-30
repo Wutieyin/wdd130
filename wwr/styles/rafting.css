@@ -15,10 +15,6 @@
     --nav-hover-background-color:var(--secondary-color);
 }
 
-body {
-    100vw
-}
-
     
 .contact {
     padding-left: 1vw;
@@ -26,18 +22,15 @@ body {
 
 .hero {
     position: relative;
-    padding-left: 1vw;
-    width: 1rem;
-    
+    padding-left: 1vw; 
 }
+
 
 .hero img {
-    width: 100%;
+    width: 100vw;
     height: auto;
-
-    
-
 }
+
 
 .hero-text {
     position: absolute;

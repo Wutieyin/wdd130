@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #1D2F6F;
+    --secondary-color: #90D7FF;
+    --accent1-color: #BFD0E0;
+    --accent2-color: #1D2F6F;
+
+    --heading-font: 'roboto mono';
+    --paragraph-font:'roboto mono'; 
+
+    --nav-background-color:var(--accent1-color);
+    --nav-link-color:var(--accent2-color);
+    --nav-hover-lin-color:var(--accent2-color);
+    --nav-hover-background-color:var(--secondary-color);
+}
+
+.contact {
+    padding-left: 1em;
+}
+
+.hero {
+    position: relative;
+    padding-left: 1em;
+    
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+
+    
+
+}
+
+.hero-text {
+    position: absolute;
+    top: 10%;
+    left: 1.1%;
+    border: 1em;
+    color: var(--accent1-color); 
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    width: 98.8%;
+    text-align: center;
+    opacity: 0.7;   
+    
+}
+
+.center-article {
+    position: absolute;
+    margin: 0 auto;
+    top: 25%;
+    left: 5%;
+    height: 25%;
+    opacity: 80%;
+    
+}
+
+.center-article {
+    border: 1em;
+    background-color: var(--accent1-color);
+    width: 90%;
+}
+
+.center-article img {
+    width: 24%;
+    height: auto;
+    float: right;
+    right: 5%;
+    padding-right: 1em;
+    padding-left: 1em;
+    
+    
+    
+}
+
+.center-article p {
+    top: 5%;
+    padding-left: 1em;
+}
+
+
+/*.hero-text h1{
+    color: var(--accent1-color); 
+    z-index: 5;
+}*/
+nav .sociallinks {
+    display: inline;
+    position: relative;
+    width: 100%;
+    height: 2em;
+}
+
+.sociallinks img {
+    /*position: absolute;*/
+    height: 40px;
+    width: auto;
+}
+
+.history {
+    padding-left: 1em;
+
+}
+
+.history h2 {
+    color: var(--primary-color);
+}
+
+.column h2 {
+    padding-left: 0.5em;
+    color: var(--primary-color);
+}
+.column img {
+    display: block;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    width: 70em;
+    height: auto;
+}
+
+.column p {
+    padding-left: 1em;
+    
+}
+
+footer {
+    padding-left: 1em;
+}
+
+.articule img {
+    width: 10em;
+    height: auto;
+}

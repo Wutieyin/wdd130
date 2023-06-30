@@ -15,22 +15,23 @@
     --nav-hover-background-color:var(--secondary-color);
 }
 
-    
 .contact {
     padding-left: 1vw;
 }
 
 .hero {
     position: relative;
-    padding-left: 1vw; 
+    padding-left: 1vw;
+    
 }
-
 
 .hero img {
-    width: 100vw;
+    width: 100%;
     height: auto;
-}
 
+    
+
+}
 
 .hero-text {
     position: absolute;
@@ -40,7 +41,7 @@
     color: var(--accent1-color); 
     border-color: var(--primary-color);
     background-color: var(--primary-color);
-    width: 100%;
+    width: 98.8%;
     text-align: center;
     opacity: 0.7;   
     
@@ -114,7 +115,7 @@ nav .sociallinks {
     display: block;
     padding-left: 1vw;
     padding-bottom: 1vh;
-    width: 70em;
+    width: 70vw;
     height: auto;
 }
 

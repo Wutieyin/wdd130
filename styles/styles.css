@@ -9,24 +9,41 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.0rem;
+    font-weight: 700;
+    color: #fff;  
 }
 
 h1 {
     color: steelblue;
+    padding-bottom: 10px;
+    margin: 10px;
+    border-bottom: solid 1px steelblue;
+    font-size: 1.7rem;
+    
 }
 
 img {
     width: 150px;
     height: auto;
+   
     
 }
 
@@ -34,10 +51,18 @@ p {
     padding: 10px;
 }
 
-main {
-    max-width: 840px;
+
+.grid  {
+    display: grid;
+    align-items: center;
 }
-   
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+
 aside {
     /*margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
@@ -45,14 +70,16 @@ aside {
     background-color: #eee;
     color: #333;*/
 
-    text-align: center;
-    width: 20em;
+    width: 20rem;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
-    width: 200px;
+    width: 285px;
     height: auto; 
+    
 }
 
 aside h2 {
@@ -89,4 +116,10 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+    
 }
+
+/* FLex and Grid */
+
+
+

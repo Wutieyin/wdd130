@@ -15,6 +15,12 @@
     --nav-hover-background-color:var(--secondary-color);
 }
 
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .contact {
     padding-left: 1vw;
 }
@@ -26,7 +32,7 @@
 }
 
 .hero img {
-    width: 100%;
+    width: 98vw;
     height: auto;
 
     
@@ -37,11 +43,13 @@
     position: absolute;
     top: 10%;
     left: 1.1%;
+    padding: 1em;
     border: 1em;
     color: var(--accent1-color); 
     border-color: var(--primary-color);
     background-color: var(--primary-color);
-    width: 98.8%;
+    width: 98vw;
+    height: 5vw;
     text-align: center;
     opacity: 0.7;   
     
@@ -51,8 +59,8 @@
     position: absolute;
     margin: 0 auto;
     top: 25%;
-    left: 5%;
-    height: 27%;
+    left: 8vw;
+    height: 15.5vw;
     opacity: 80%;
     
 }
@@ -60,24 +68,25 @@
 .center-article {
     border: 1em;
     background-color: var(--accent1-color);
-    width: 90%;
+    width: 85vw;
 }
 
 .center-article img {
-    width: 23%;
+    width: 20vw;
     height: auto;
     float: right;
     right: 5%;
     padding-right: 1em;
     padding-left: 1em;
+    padding-top: 1em;
     
     
     
 }
 
 .center-article p {
-    top: 5%;
     padding-left: 1em;
+    padding: 1em;
 }
 
 

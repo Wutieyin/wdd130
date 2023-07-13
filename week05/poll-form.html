@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+
+</head>
+<body>
+<header>
+    <h1>WDD 130 | HTML Form - User Poll</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            
+            <legend>Contact Information</legend>
+            <div class=" form-item column2">
+                <label>Fullname:<input type="text" name="fullname"></label><br>
+            </div>
+            <div class=" form-item column2">
+                <label>Email:<input type="email" name="useremail"></label><br>
+            </div>
+        </fieldset>
+
+        <fieldset>
+                <legend>Questions</legend>
+            <div class="form-item column1">
+                <label for="broswer">What is your favorite internet browser?</label>
+                <select id="broswer" name="broswer">
+                  <option value="google">Google</option>
+                  <option value="firefox">FireFox</option>
+                  <option value="edge">Edge</option>
+                </select><br>
+            </div>
+            <div class="form-item column1">
+                <label for="pet">Do you have a hosehold pet?</label>
+                <input type="checkbox" name="pet" id="pet"><br>
+            </div>
+            <div class="form-item">    
+                <label for="feedback">List the places you have lived?</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Olokonla, off Lekki-Epe"></textarea><br>
+            </div>
+            </fieldset>
+        <button type="submit">Submit Poll</button>
+    </form>
+</main>
+<footer>
+        <p>©️2024 | HTML Form - User Poll Activity | Utieyin Wyse</p>
+    </footer>
+</body>
+</html>

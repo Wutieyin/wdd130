@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | Quiz Form - </title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+<header>
+    
+    <h1>Basic HTML AND CSS QUIZ</h1>
+    <div>
+    <input class="checkbox" type="checkbox">
+    </div>
+</header>
+<main>
+    <form>
+        <div class="q">
+        <p class="pnumbering">1.</p>
+        <label for="q1"> What does the CSS unit "vw" represent?</label>
+        <input type="text" id="q1" name="q1"><br>
+    </div>
+    <div class="q">
+        <p class="pnumbering">2.</p>
+        <label for="q2">What is the difference between margin and padding in CSS?</label>
+        <textarea name="q2" id="q2"></textarea><br>
+    </div>
+    <div class="q">
+        <p class="pnumbering">3.</p>
+        <label for="q3">What separates the content from the border in CSS Box Model?</label>
+        <select id="q3" name="q3">
+            <option value="" selected disabled>Choose One . . .</option>
+            <option value="maring">Margin</option>
+            <option value="padding">Padding</option>
+            <option value="border">Border</option>
+        </select><br>
+    </div>
+    <div class="q4">
+        <p class="pnumbering">4.</p>
+        <label for="integer">What is the right margin given this declaration?</label>
+        <p id="q4"> margin: 10px 5px 15px</p>
+        <input type="number" id="integer" name="integer">
+    </div>
+        <button type="submit">Submit Quiz</button>
+    </form>
+</main>
+    <footer>
+        <p>Figure 1: Example Quiz</p>
+    </footer>
+</body>
+</html>

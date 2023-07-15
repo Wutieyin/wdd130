@@ -285,3 +285,172 @@ footer {
     margin: 0.5vw;
 }
 
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    justify-items: center;
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    
+    /* display: block; */
+    
+}
+
+.employees h2{
+    grid-column-start: span 3;
+    grid-row-start: 1;
+    
+}
+
+.employees img  {
+    /* padding-left: 1vw;
+    padding-bottom: 1vh; */
+    width: 25vw;
+    height: auto;
+    
+    
+
+}
+
+form    {
+    /* display: grid; */
+    /* background-color: var(--accent2-color); */
+    /* color: white; */
+    /* width: 98vw; */
+   
+    
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee; 
+    margin-bottom: 1rem;
+}
+
+.contact-us {
+    display: grid;
+    grid-template-columns: 49vw 49vw;
+    gap: 5px;
+    justify-items: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    
+    width: 98vw;
+}
+
+
+
+.map    {
+    background-color: var(--accent1-color);
+    width: 49vw;
+    position: relative;
+    align-items: center;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    
+}
+
+/* .contact-us::after {
+    content: "";
+    background-color: var(--secondary-color);
+    grid-column-start: 1;
+    grid-row-start: 2;
+} */
+
+.address    {
+    padding-top: 10rem;
+    background-color: #90D7FF;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    text-align: center;
+    border: #1D2F6F;
+    width: 49vw
+}
+.contact-us p   {
+    justify-items: center;  
+}
+
+
+.enquiry h2{
+    text-align: center;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+}
+
+#fullname {
+    grid-row: 2;
+    grid-column-start: span 2;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#useremail {
+    grid-row: 2;
+    grid-column-start: span 2;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.radio{
+    display: grid;
+    margin-bottom: 0.2rem;  
+    grid-template-columns: 30px 10fr;
+    
+}
+
+.radio3{
+    display: grid;
+    margin-bottom: 0.2rem;  
+    grid-template-columns: 30px 10fr;
+    
+}
+
+.feedback{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+   
+    margin-bottom: 0.5rem;
+    align-items: center;
+    
+}
+
+#feedback {
+    height: 6rem;
+}
+
+button {
+    font-size: 1em;
+    color: #fff;
+    background-color: darkblue;
+    padding: 0.5rem;
+    border-radius: 0.5rem; 
+    
+    margin-bottom: 1rem;
+    width: 42.5vw;
+    
+}
+
+button:hover {
+    background-color: darkgreen
+}
+
+#subscribe{
+    margin: 0 auto;
+}
+   
+
+
+
+
+
+
+
+

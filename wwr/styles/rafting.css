@@ -415,13 +415,12 @@ form    {
     height: 6rem;
 }
 
-.button5 {
+.button10 {
     font-size: 1em;
     color: #fff;
     background-color: darkblue;
     padding: 0.5rem;
     border-radius: 0.5rem; 
-    
     margin-bottom: 1rem;
     width: 42.5vw;
     

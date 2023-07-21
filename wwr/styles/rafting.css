@@ -36,47 +36,39 @@
     background-color: var(--primary-color); 
 }
 
-
-
-.contact {
-    padding-left: 1vw;
-    
-
+.button1:hover, .button2:hover, 
+.button3:hover, .button4:hover {
+    background-color: darkgreen
 }
+
 
 .hero {
     position: relative;
-    padding-left: 1vw;
-    padding-top: 1vw;
-    
-    
+    padding-top: 1vw; 
 }
 
 .hero img {
-    width: 98vw;
+    width: 100vw;
     height: auto;
     margin: 0 auto;
-    
-
-    
-
 }
 
 .hero-text {
     position: absolute;
     top: 10%;
-    left: 1.1%;
     padding: 1em;
     border: 1em;
     color: var(--accent1-color); 
     border-color: var(--primary-color);
     background-color: var(--primary-color);
-    width: 98vw;
+    width: 100vw;
     height: 5vw;
     text-align: center;
-    opacity: 0.7;   
-    
-    
+    opacity: 0.7;      
+}
+
+#para1 p, #para2 p, article p{
+    text-align: left;
 }
 
 .center-article {
@@ -85,8 +77,7 @@
     top: 25%;
     left: 8vw;
     height: 15.5vw;
-    opacity: 80%;
-    
+    opacity: 80%;   
 }
 
 .center-article {
@@ -201,9 +192,6 @@ nav .sociallinks {
     
 }
 
-footer {
-    padding-left: 1vw;
-}
 
 .articule img {
     width: 10vw;
@@ -216,7 +204,7 @@ footer {
 
 header{
     margin-top: 1vw;
-    width: 98vw;
+    width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1vw;
@@ -259,7 +247,7 @@ header{
 
 
 footer {
-    width: 98vw;
+    width: 100vw;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 15vw 3fr 1fr;
@@ -641,33 +629,167 @@ form    {
  
  /* Button */
  
+ .button6 {
+    margin-left: 46.5vw;
+    background-color:var(--primary-color);
+    border: 1px;
+    border-color: black;
+    color: var(--accent1-color);
+    padding: 10px 42px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: var(--primary-color); 
+    text-align: center;
+    width: 42vw;
+    color: #fff;
+    border-radius: 0.5rem; 
+    margin-bottom: 3rem;
+}
+
  .button6{
     margin-left: 29vw;
-    
-    
  }
- .button6 {
-     font-size: 1em;
-     color: #fff;
-     background-color: darkblue;
-     padding: 0.5rem;
+    
+ 
+ /* .button6 {
+    font-size: 1em; 
+     color: #fff; 
+     background-color: darkblue; 
+     padding: 0.5rem; 
      border-radius: 0.5rem; 
      margin-bottom: 3rem;
-     width: 42vw;
-     
-     
- }
+     width: 42vw;   
+ } */
  
  .button6:hover {
      background-color: darkgreen
  }
  
+ /* Home page */
+
+.activities{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+
+}
+
+.activities img{
+    width: 25vw;
+    height: auto;
+    padding: 0.5em;
+    background-color: var(--primary-color);   
+}
+
+.hiking, .kayak, .rapid{
+    text-align: center;
+}
+
+
+/* Home Page */
+
+
+
+
+.checkout{
+    margin-top: 5vh;
+    margin-bottom: 4vh; 
+}
+
+/* .button7 { */
+
+
+/* padding: 1em;
+border: 1em; */
+/* color: var(--accent1-color); 
+border-color: var(--primary-color);
+background-color: var(--primary-color); */
+/* width: 100vw;
+height: 5vw; 
+} */
+
+
+
+
+.button7 {
+    margin-left: 46.5vw;
+    background-color:var(--primary-color);
+    border: 1px;
+    border-color: black;
+    color: var(--accent1-color);
+    padding: 10px 36px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: var(--primary-color); 
+}
+
  
+.button7:hover {
+    background-color: darkgreen
+}
+
+/* Newsletter */
+
+.backg{
+    background-color: var(--secondary-color);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 3vh;
+    
+}
+
+form{
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  
+    
+}
+.sign-up h2, p{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+    
+}
+
+#fullname {
+    grid-row: 2;
+    grid-column-start: span 2;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#useremail {
+    grid-row: 2;
+    grid-column-start: span 2;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
 
 
+.button5 {
+    font-size: 1em;
+    color: #fff;
+    background-color: darkblue;
+    padding: 0.5rem;
+    border-radius: 0.5rem; 
+    
+    margin-bottom: 1rem;
+    width: 42.5vw;
+    
+}
 
+.button5:hover {
+    background-color: darkgreen
+}
 
-
-
-
+#subscribe{
+    margin: 0 auto;
+}
 
